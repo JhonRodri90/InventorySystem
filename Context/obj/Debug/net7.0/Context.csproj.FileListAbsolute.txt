@@ -1,0 +1,12 @@
+C:\WorkSpace\InventorySystem\Context\bin\Debug\net7.0\Context.deps.json
+C:\WorkSpace\InventorySystem\Context\bin\Debug\net7.0\Context.dll
+C:\WorkSpace\InventorySystem\Context\bin\Debug\net7.0\Context.pdb
+C:\WorkSpace\InventorySystem\Context\obj\Debug\net7.0\Context.csproj.AssemblyReference.cache
+C:\WorkSpace\InventorySystem\Context\obj\Debug\net7.0\Context.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkSpace\InventorySystem\Context\obj\Debug\net7.0\Context.AssemblyInfoInputs.cache
+C:\WorkSpace\InventorySystem\Context\obj\Debug\net7.0\Context.AssemblyInfo.cs
+C:\WorkSpace\InventorySystem\Context\obj\Debug\net7.0\Context.csproj.CoreCompileInputs.cache
+C:\WorkSpace\InventorySystem\Context\obj\Debug\net7.0\Context.dll
+C:\WorkSpace\InventorySystem\Context\obj\Debug\net7.0\refint\Context.dll
+C:\WorkSpace\InventorySystem\Context\obj\Debug\net7.0\Context.pdb
+C:\WorkSpace\InventorySystem\Context\obj\Debug\net7.0\ref\Context.dll

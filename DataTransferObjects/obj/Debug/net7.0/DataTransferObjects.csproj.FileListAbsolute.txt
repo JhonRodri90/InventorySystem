@@ -1,0 +1,12 @@
+C:\WorkSpace\InventorySystem\DataTransferObjects\bin\Debug\net7.0\DataTransferObjects.deps.json
+C:\WorkSpace\InventorySystem\DataTransferObjects\bin\Debug\net7.0\DataTransferObjects.dll
+C:\WorkSpace\InventorySystem\DataTransferObjects\bin\Debug\net7.0\DataTransferObjects.pdb
+C:\WorkSpace\InventorySystem\DataTransferObjects\obj\Debug\net7.0\DataTransferObjects.csproj.AssemblyReference.cache
+C:\WorkSpace\InventorySystem\DataTransferObjects\obj\Debug\net7.0\DataTransferObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkSpace\InventorySystem\DataTransferObjects\obj\Debug\net7.0\DataTransferObjects.AssemblyInfoInputs.cache
+C:\WorkSpace\InventorySystem\DataTransferObjects\obj\Debug\net7.0\DataTransferObjects.AssemblyInfo.cs
+C:\WorkSpace\InventorySystem\DataTransferObjects\obj\Debug\net7.0\DataTransferObjects.csproj.CoreCompileInputs.cache
+C:\WorkSpace\InventorySystem\DataTransferObjects\obj\Debug\net7.0\DataTransferObjects.dll
+C:\WorkSpace\InventorySystem\DataTransferObjects\obj\Debug\net7.0\refint\DataTransferObjects.dll
+C:\WorkSpace\InventorySystem\DataTransferObjects\obj\Debug\net7.0\DataTransferObjects.pdb
+C:\WorkSpace\InventorySystem\DataTransferObjects\obj\Debug\net7.0\ref\DataTransferObjects.dll
