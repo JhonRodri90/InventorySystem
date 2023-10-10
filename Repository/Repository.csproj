@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="SpecificRepository\Implementations\" />
+    <Folder Include="SpecificRepository\Interfaces\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Context\Context.csproj" />
+  </ItemGroup>
+
 </Project>
