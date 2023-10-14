@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UTPPUNNyIU4ZZifvMx+lN0g8Hg0vNSmKU6+b3OGnAd2S+FtEF1r1Ons4IYfgzo9II40wxB2SsYtKPc5/1g2jHw==",
+  "dgSpecHash": "DPYbYNJG+nrTsMMtQ1kxOifR6IgzlHHGz136A+kHW2sSLMazLZlIcf39GeCoIH7n1rbR28HMYDDmPLe9WII+Rg==",
   "success": true,
   "projectFilePath": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\InventorySystem.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ingjh\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ingjh\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ingjh\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\ingjh\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
@@ -78,7 +79,7 @@
     "C:\\Users\\ingjh\\.nuget\\packages\\microsoft.codeanalysis.razor\\6.0.11\\microsoft.codeanalysis.razor.6.0.11.nupkg.sha512",
     "C:\\Users\\ingjh\\.nuget\\packages\\microsoft.codeanalysis.scripting.common\\4.4.0\\microsoft.codeanalysis.scripting.common.4.4.0.nupkg.sha512",
     "C:\\Users\\ingjh\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\4.4.0\\microsoft.codeanalysis.workspaces.common.4.4.0.nupkg.sha512",
-    "C:\\Users\\ingjh\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\ingjh\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ingjh\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",
     "C:\\Users\\ingjh\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.0\\microsoft.data.sqlclient.sni.runtime.5.1.0.nupkg.sha512",
     "C:\\Users\\ingjh\\.nuget\\packages\\microsoft.diasymreader\\1.4.0\\microsoft.diasymreader.1.4.0.nupkg.sha512",
