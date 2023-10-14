@@ -1,5 +1,4 @@
 ﻿
-using Context.Data;
 using Context.Entities;
 using Repository.GenericRepository.Implementations;
 using Repository.SpecificRepository.Interfaces;
