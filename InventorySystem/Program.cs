@@ -1,6 +1,12 @@
+using AutoMapper;
+using BusinessLogic.Contracts;
+using BusinessLogic.Services;
 using Context.Data;
+using DataTransferObjects.Profiles;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Repository.GenericRepository.Implementations;
+using Repository.GenericRepository.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +19,16 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
+var mapperConfig = new MapperConfiguration(mc =>
+{
+    mc.AddProfile(new InventorySystemProfile());
+});
+IMapper mapper = mapperConfig.CreateMapper();
+
+builder.Services.AddSingleton(mapper);
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IWineryService, WineryService>();
 
 var app = builder.Build();
 
