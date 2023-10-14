@@ -1,4 +1,4 @@
-namespace DataTransferObjects.System.Models
+namespace DataTransferObjets.System.Models
 {
     public class ErrorViewModel
     {

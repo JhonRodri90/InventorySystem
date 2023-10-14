@@ -1,11 +1,14 @@
 C:\WorkSpace\InventorySystem\Repository\bin\Debug\net7.0\Repository.deps.json
 C:\WorkSpace\InventorySystem\Repository\bin\Debug\net7.0\Repository.dll
 C:\WorkSpace\InventorySystem\Repository\bin\Debug\net7.0\Repository.pdb
+C:\WorkSpace\InventorySystem\Repository\bin\Debug\net7.0\Context.dll
+C:\WorkSpace\InventorySystem\Repository\bin\Debug\net7.0\Context.pdb
 C:\WorkSpace\InventorySystem\Repository\obj\Debug\net7.0\Repository.csproj.AssemblyReference.cache
 C:\WorkSpace\InventorySystem\Repository\obj\Debug\net7.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
 C:\WorkSpace\InventorySystem\Repository\obj\Debug\net7.0\Repository.AssemblyInfoInputs.cache
 C:\WorkSpace\InventorySystem\Repository\obj\Debug\net7.0\Repository.AssemblyInfo.cs
 C:\WorkSpace\InventorySystem\Repository\obj\Debug\net7.0\Repository.csproj.CoreCompileInputs.cache
+C:\WorkSpace\InventorySystem\Repository\obj\Debug\net7.0\Repository.csproj.CopyComplete
 C:\WorkSpace\InventorySystem\Repository\obj\Debug\net7.0\Repository.dll
 C:\WorkSpace\InventorySystem\Repository\obj\Debug\net7.0\refint\Repository.dll
 C:\WorkSpace\InventorySystem\Repository\obj\Debug\net7.0\Repository.pdb
