@@ -16,6 +16,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\WorkSpace\InventorySystem\InventorySystem
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/WorkSpace/InventorySystem/InventorySystem/Areas/Administrator/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xDYXRlZ29yeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WorkSpace/InventorySystem/InventorySystem/Areas/Administrator/Views/Category/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xDYXRlZ29yeVxVcHNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WorkSpace/InventorySystem/InventorySystem/Areas/Administrator/Views/Winery/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xXaW5lcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WorkSpace/InventorySystem/InventorySystem/Areas/Administrator/Views/Winery/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xXaW5lcnlcVXBzZXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/WorkSpace/InventorySystem/InventorySystem/Areas/Administrator/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -48,8 +64,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/WorkSpace/InventorySystem/InventorySystem/Views/Shared/_CreateAndReturnButton.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DcmVhdGVBbmRSZXR1cm5CdXR0b24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/WorkSpace/InventorySystem/InventorySystem/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WorkSpace/InventorySystem/InventorySystem/Views/Shared/_Notifications.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WorkSpace/InventorySystem/InventorySystem/Views/Shared/_UpdateAndReturnButton.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9VcGRhdGVBbmRSZXR1cm5CdXR0b24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/WorkSpace/InventorySystem/InventorySystem/Views/Shared/_ValidationScriptsPartial.cshtml]
