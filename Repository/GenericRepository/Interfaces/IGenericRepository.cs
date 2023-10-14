@@ -4,18 +4,14 @@ namespace Repository.GenericRepository.Interfaces
 {
     public interface IGenericRepository<T> where T : class
     {
-        Task<IEnumerable<T>> GetAll(
-                                    Expression<Func<T, bool>>? where = null,
-                                    Func<IQueryable<T>, IOrderedEnumerable<T>>? orderBy = null,
-                                    string includeProperties = "");
-
-        Task<T> GetFirstOrDefault(
-                                    Expression<Func<T, bool>>? where = null,
-                                    string includeProperties = "");
-
-        Task Add(T entity, CancellationToken cancellationToken);
-        Task Upd(int id, T entity ,CancellationToken cancellationToken);
+        Task Create(T entity, CancellationToken cancellationToken);
+        Task<IEnumerable<T?>> ReadAll(
+            Expression<Func<T, bool>>? filter = null,
+            Func<IQueryable<T>, IOrderedQueryable<T>>? orderBy = null,
+            string includeProperties = "");
+        Task<T?> ReadById(Expression<Func<T, bool>>? filter, string includeProperties = "");
+        Task Update(int id, T newEntityToUpdate, CancellationToken cancellationToken);
         Task Delete(int id, CancellationToken cancellationToken);
-
+        void DeleteByRange(IEnumerable<T> entity);
     }
 }
