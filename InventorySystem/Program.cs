@@ -29,6 +29,7 @@ builder.Services.AddSingleton(mapper);
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IWineryService, WineryService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IMarkService, MarkService>();
 
 var app = builder.Build();
 

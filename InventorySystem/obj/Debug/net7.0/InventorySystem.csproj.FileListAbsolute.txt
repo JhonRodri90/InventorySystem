@@ -557,3 +557,8 @@ C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\System.Xml.XP
 C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\WindowsBase.dll
 C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\AutoMapper.dll
+C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\BusinessLogic.dll
+C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\Repository.dll
+C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\BusinessLogic.pdb
+C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\Repository.pdb

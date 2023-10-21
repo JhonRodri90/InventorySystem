@@ -13,6 +13,7 @@ namespace Context.Data
         }
         public DbSet<Winery> Wineries { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Mark> Marks { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

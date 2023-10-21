@@ -10,3 +10,6 @@ C:\WorkSpace\InventorySystem\DataTransferObjects\obj\Debug\net7.0\DataTransferOb
 C:\WorkSpace\InventorySystem\DataTransferObjects\obj\Debug\net7.0\refint\DataTransferObjects.dll
 C:\WorkSpace\InventorySystem\DataTransferObjects\obj\Debug\net7.0\DataTransferObjects.pdb
 C:\WorkSpace\InventorySystem\DataTransferObjects\obj\Debug\net7.0\ref\DataTransferObjects.dll
+C:\WorkSpace\InventorySystem\DataTransferObjects\bin\Debug\net7.0\Context.dll
+C:\WorkSpace\InventorySystem\DataTransferObjects\bin\Debug\net7.0\Context.pdb
+C:\WorkSpace\InventorySystem\DataTransferObjects\obj\Debug\net7.0\DataTransferObjects.csproj.CopyComplete

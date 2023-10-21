@@ -7,5 +7,6 @@ namespace Repository.GenericRepository.Interfaces
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
         IWineryRepository WineryRepository { get; }
         ICategoryRepository CategoryRepository { get; }
+        IMarkRepository MarkRepository { get; }
     }
 }
