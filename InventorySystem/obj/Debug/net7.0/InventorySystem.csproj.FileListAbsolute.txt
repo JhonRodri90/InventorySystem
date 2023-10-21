@@ -350,7 +350,6 @@ C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\Microsoft.CSh
 C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\Microsoft.Extensions.Caching.Abstractions.dll
 C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\Microsoft.Extensions.Caching.Memory.dll
 C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\Microsoft.Extensions.Configuration.Binder.dll
 C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\Microsoft.Extensions.Configuration.CommandLine.dll
 C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\Microsoft.Extensions.Configuration.dll
 C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
@@ -370,7 +369,6 @@ C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\Microsoft.Ext
 C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\Microsoft.Extensions.FileProviders.Physical.dll
 C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
-C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\Microsoft.Extensions.Hosting.dll
 C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\Microsoft.Extensions.Http.dll
 C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
 C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\Microsoft.Extensions.Localization.dll
@@ -416,7 +414,6 @@ C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\System.Data.D
 C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\System.Data.dll
 C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\System.Diagnostics.Contracts.dll
 C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\System.Diagnostics.Debug.dll
-C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\System.Diagnostics.DiagnosticSource.dll
 C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\System.Diagnostics.EventLog.dll
 C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\System.Diagnostics.FileVersionInfo.dll
 C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\refs\System.Diagnostics.Process.dll
@@ -562,3 +559,6 @@ C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\BusinessLogic.dll
 C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\Repository.dll
 C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\BusinessLogic.pdb
 C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\Repository.pdb
+C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\Microsoft.Extensions.Hosting.dll
+C:\WorkSpace\InventorySystem\InventorySystem\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
