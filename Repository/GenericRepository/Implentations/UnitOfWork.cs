@@ -12,12 +12,15 @@ namespace Repository.GenericRepository.Implentations
         public ICategoryRepository CategoryRepository { get; private set; }
         public IMarkRepository MarkRepository { get; private set; }
 
+        public IProductRepository ProductRepository { get; private set; }
+
         public UnitOfWork(ApplicationDbContext context)
         {
             this.context = context;
             WineryRepository = new WineryRepository(this.context);
             CategoryRepository = new CategoryRepository(this.context);
             MarkRepository = new MarkRepository(this.context);
+            ProductRepository = new ProductRepository(this.context);
 
         }
         public void Dispose()
