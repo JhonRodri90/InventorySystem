@@ -8,5 +8,6 @@ namespace Repository.GenericRepository.Interfaces
         IWineryRepository WineryRepository { get; }
         ICategoryRepository CategoryRepository { get; }
         IMarkRepository MarkRepository { get; }
+        IProductRepository ProductRepository { get; }
     }
 }
