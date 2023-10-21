@@ -12,5 +12,7 @@ namespace BusinessLogic.Contracts
         public Task<IEnumerable<WineryResponse>> GetAll();
         public Task<WineryResponse> GetById(int id);
         #endregion
+
+        public Task<bool> ValidateNameId(int id, string name);
     }
 }

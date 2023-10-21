@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using BusinessLogic.AbstractLogic.Application;
 using BusinessLogic.Contracts;
 using Context.Entities;
 using DataTransferObjets.Dto.In;
@@ -52,6 +53,13 @@ namespace BusinessLogic.Services
             await unitOfWork.MarkRepository.Update(id, entity, cancellationToken);
             int result = await unitOfWork.SaveChangesAsync(cancellationToken);
             return result > 0;
+        }
+
+        public async Task<bool> ValidateNameId(int id, string name)
+        {
+            IEnumerable<Mark?> data = await unitOfWork.MarkRepository.ReadAll();
+            IEnumerable<MarkResponse> response = mapper.Map<IEnumerable<MarkResponse>>(data);
+            return GenericValidation.ValidateDuplicateNameField(response, id, name);
         }
     }
 }

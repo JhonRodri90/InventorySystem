@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using BusinessLogic.AbstractLogic.Application;
 using BusinessLogic.Contracts;
 using Context.Entities;
 using DataTransferObjets.Dto.In;
@@ -52,6 +53,13 @@ namespace BusinessLogic.Services
             await unitOfWork.WineryRepository.Update(id, entity, cancellationToken);
             int result = await unitOfWork.SaveChangesAsync(cancellationToken);
             return result > 0;
+        }
+
+        public async Task<bool> ValidateNameId(int id, string name)
+        {
+            IEnumerable<Winery?> data = await unitOfWork.WineryRepository.ReadAll();
+            IEnumerable<WineryResponse> response = mapper.Map<IEnumerable<WineryResponse>>(data);
+            return GenericValidation.ValidateDuplicateNameField(response, id, name);
         }
     }
 }
