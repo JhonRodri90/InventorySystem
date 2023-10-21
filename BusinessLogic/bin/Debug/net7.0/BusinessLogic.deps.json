@@ -733,7 +733,8 @@
       "DataTransferObjects/1.0.0": {
         "dependencies": {
           "AutoMapper": "12.0.1",
-          "Context": "1.0.0"
+          "Context": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "5.0.17"
         },
         "runtime": {
           "DataTransferObjects.dll": {}
