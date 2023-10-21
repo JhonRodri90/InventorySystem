@@ -13,6 +13,8 @@ namespace DataTransferObjets.Profiles
             CreateMap<Winery, WineryResponse>();
             CreateMap<CategoryRequest, Category>();
             CreateMap<Category, CategoryResponse>();
+            CreateMap<MarkRequest, Mark>();
+            CreateMap<Mark, MarkResponse>();
         }
     }
 }
