@@ -35,6 +35,8 @@
     ".NETCoreApp,Version=v7.0": {
       "InventorySystem/1.0.0": {
         "dependencies": {
+          "AutoMapper": "12.0.1",
+          "BusinessLogic": "1.0.0",
           "Context": "1.0.0",
           "DataTransferObjects": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "7.0.11",
@@ -44,6 +46,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.11",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.11",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.10",
+          "Repository": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "7.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "7.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "7.0.0.0",
@@ -340,6 +343,20 @@
         },
         "compile": {
           "InventorySystem.dll": {}
+        }
+      },
+      "AutoMapper/12.0.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/AutoMapper.dll": {}
         }
       },
       "Azure.Core/1.25.0": {
@@ -1537,7 +1554,7 @@
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.Workspaces.dll": {}
         }
       },
-      "Microsoft.CSharp/4.5.0": {},
+      "Microsoft.CSharp/4.7.0": {},
       "Microsoft.Data.SqlClient/5.1.1": {
         "dependencies": {
           "Azure.Identity": "1.7.0",
@@ -1930,7 +1947,7 @@
       },
       "Microsoft.IdentityModel.Tokens/6.24.0": {
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.CSharp": "4.7.0",
           "Microsoft.IdentityModel.Logging": "6.24.0",
           "System.Security.Cryptography.Cng": "5.0.0"
         },
@@ -3180,6 +3197,18 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "BusinessLogic/1.0.0": {
+        "dependencies": {
+          "DataTransferObjects": "1.0.0",
+          "Repository": "1.0.0"
+        },
+        "runtime": {
+          "BusinessLogic.dll": {}
+        },
+        "compile": {
+          "BusinessLogic.dll": {}
+        }
+      },
       "Context/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.11",
@@ -3193,11 +3222,26 @@
         }
       },
       "DataTransferObjects/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "Context": "1.0.0"
+        },
         "runtime": {
           "DataTransferObjects.dll": {}
         },
         "compile": {
           "DataTransferObjects.dll": {}
+        }
+      },
+      "Repository/1.0.0": {
+        "dependencies": {
+          "Context": "1.0.0"
+        },
+        "runtime": {
+          "Repository.dll": {}
+        },
+        "compile": {
+          "Repository.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/7.0.0.0": {
@@ -4948,6 +4992,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AutoMapper/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hvV62vl6Hp/WfQ24yzo3Co9+OPl8wH8hApwVtgWpiAynVJkUcs7xvehnSftawL8Pe8FrPffBRM3hwzLQqWDNjA==",
+      "path": "automapper/12.0.1",
+      "hashPath": "automapper.12.0.1.nupkg.sha512"
+    },
     "Azure.Core/1.25.0": {
       "type": "package",
       "serviceable": true,
@@ -5466,12 +5517,12 @@
       "path": "microsoft.codeanalysis.workspaces.common/4.4.0",
       "hashPath": "microsoft.codeanalysis.workspaces.common.4.4.0.nupkg.sha512"
     },
-    "Microsoft.CSharp/4.5.0": {
+    "Microsoft.CSharp/4.7.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
-      "path": "microsoft.csharp/4.5.0",
-      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
     "Microsoft.Data.SqlClient/5.1.1": {
       "type": "package",
@@ -6579,12 +6630,22 @@
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
+    "BusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Context/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "DataTransferObjects/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

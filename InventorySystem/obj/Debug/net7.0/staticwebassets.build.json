@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0GCuXn3Kol3deCcA65kSpfMm0JRM29kVYOCpkZmfEXg=",
+  "Hash": "BPubhH0nbgH9U+mT+qFQWMCDDreLMoOcd6RS8mlqihs=",
   "Source": "InventorySystem",
   "BasePath": "_content/InventorySystem",
   "Mode": "Default",
@@ -1105,6 +1105,40 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\js\\category.js",
+      "SourceId": "InventorySystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\",
+      "BasePath": "_content/InventorySystem",
+      "RelativePath": "js/category.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\category.js"
+    },
+    {
+      "Identity": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\js\\mark.js",
+      "SourceId": "InventorySystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\",
+      "BasePath": "_content/InventorySystem",
+      "RelativePath": "js/mark.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\mark.js"
+    },
+    {
       "Identity": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\js\\site.js",
       "SourceId": "InventorySystem",
       "SourceType": "Discovered",
@@ -1120,6 +1154,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\js\\winery.js",
+      "SourceId": "InventorySystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\",
+      "BasePath": "_content/InventorySystem",
+      "RelativePath": "js/winery.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\winery.js"
     },
     {
       "Identity": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

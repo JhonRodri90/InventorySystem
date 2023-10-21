@@ -13,8 +13,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\js\\category.js",
+      "PackagePath": "staticwebassets\\js\\category.js"
+    },
+    {
+      "Id": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\js\\mark.js",
+      "PackagePath": "staticwebassets\\js\\mark.js"
+    },
+    {
       "Id": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\js\\winery.js",
+      "PackagePath": "staticwebassets\\js\\winery.js"
     },
     {
       "Id": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\lib\\bootstrap\\LICENSE",
