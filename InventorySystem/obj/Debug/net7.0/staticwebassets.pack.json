@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\js\\mark.js"
     },
     {
+      "Id": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
+    },
+    {
       "Id": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

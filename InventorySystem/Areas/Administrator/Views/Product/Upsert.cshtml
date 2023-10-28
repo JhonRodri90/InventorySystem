@@ -1,0 +1,168 @@
+﻿﻿@using DataTransferObjets.Configuration;
+@model DataTransferObjets.Dto.Out.ProductResponse
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var title = "Create Product";
+}
+
+<form method="post" enctype="multipart/form-data">
+
+    @if (Model.Id != 0)
+    {
+        title = "Update Product";
+        <input asp-for="Id" hidden />
+        <input asp-for="ImageUrl" hidden />
+    }
+
+    <div class="border p-3">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row">
+            <h2 class="text-info">@title</h2>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Number Serie</label>
+                            <input asp-for="Name" class="form-control" placeholder="Name of the Number Serie" id="name" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Descripcion</label>
+                            <input asp-for="Description" class="form-control" placeholder="Name of the Description" id="description" />
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Cost</label>
+                            <input asp-for="Cost" class="form-control" placeholder="Name of the Cost" id="price" />
+                            <span asp-validation-for="Cost" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Price</label>
+                            <input asp-for="Price" class="form-control" placeholder="Name of the Price" id="price" />
+                            <span asp-validation-for="Price" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Product image</label>
+                            <input type="file" accept="image/png, image/gif, image/jpeg" name="files" id="imagenId" class="form-control" />
+                            <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Category</label>
+                            <select asp-for="CategoryId" asp-items="@Model.CategoryDropDownList" class="form-select">
+                                <option disabled selected>-- Select a Category --</option>
+                            </select>
+                            <span asp-validation-for="CategoryId" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Mark</label>
+                            <select asp-for="MarkId" asp-items="@Model.MarkDropDownList" class="form-select">
+                                <option disabled selected>-- Select a Mark --</option>
+                            </select>
+                            <span asp-validation-for="MarkId" class="text-danger"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Parent Product</label>
+                            <select asp-for="ParentId" asp-items="@Model.ParentDropDownList" class="form-select">
+                                <option disabled selected>-- Select a Parent --</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>State</label>
+                            <select asp-for="State" class="form-select">
+                                <option value="true">Active</option>
+                                <option value="false">Inactive</option>
+                            </select>
+                            <span asp-validation-for="State" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <br />
+
+                    <div class="d-grid gap-2 d-md-block">
+                        @if (Model.Id != 0)
+                        {
+                            <partial name="_UpdateAndReturnButton" model="Model.Id" />
+                        }
+                        else
+                        {
+                            <button type="submit" onclick="return valiteImagen()" class="btn btn-primary"><i class="bi bi-plus-square-fill"></i> Create</button>
+                            <a asp-action="Index" class="btn btn-success "><i class="bi bi-arrow-return-left"></i> Go back</a>
+                        }
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-4">
+                @if (Model.Id != 0)
+                {
+                    <img src="@Model.ImageUrl" width="100%" style="border-radius:5px; border:1px solid #bbb" />
+                }
+            </div>
+
+        </div>
+    </div>
+
+</form>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
+
+<script>
+
+    document.getElementById("name").addEventListener('change', function () {
+        ValidateField();
+    });
+
+    function ValidateField() {
+        var url = '@Url.Content("~/")' + "Administrator/Product/ValidateNameId";
+        var id = '#id';
+        var name = '#name';
+
+        $.getJSON(url, { id: $(id).val(), name: $(name).val() }, function (data) {
+            $.each(data, function (key, value) {
+                if (value) {
+                    var name = document.getElementById("name");
+                    swal("Error", "¡The product name already exists!", "error");
+                    name.value = "";
+                }
+            });
+        })
+    }
+
+    function valiteImagen() {
+        if (document.getElementById("imagenId").value == "") {
+            swal("Error", "Select an Image!", "error")
+            return false;
+        }
+        return true;
+    }
+</script>

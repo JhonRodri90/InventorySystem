@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BPubhH0nbgH9U+mT+qFQWMCDDreLMoOcd6RS8mlqihs=",
+  "Hash": "U8qM2LHhRHg/gbIfhlqukytQ6bWoNnwGtyGUQaME40w=",
   "Source": "InventorySystem",
   "BasePath": "_content/InventorySystem",
   "Mode": "Default",
@@ -1137,6 +1137,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\mark.js"
+    },
+    {
+      "Identity": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\js\\product.js",
+      "SourceId": "InventorySystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\",
+      "BasePath": "_content/InventorySystem",
+      "RelativePath": "js/product.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\product.js"
     },
     {
       "Identity": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\js\\site.js",
