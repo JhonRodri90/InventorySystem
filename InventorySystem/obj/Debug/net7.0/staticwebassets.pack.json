@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\images\\icono.ico",
+      "PackagePath": "staticwebassets\\images\\icono.ico"
+    },
+    {
+      "Id": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\images\\icono.png",
+      "PackagePath": "staticwebassets\\images\\icono.png"
+    },
+    {
+      "Id": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\images\\products\\35c69ef3-900f-4019-870b-407b1c37861a.JPG",
+      "PackagePath": "staticwebassets\\images\\products\\35c69ef3-900f-4019-870b-407b1c37861a.JPG"
+    },
+    {
+      "Id": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\images\\products\\9f8eaaa5-5146-4fae-bbb5-c4df5eaf7673.JPG",
+      "PackagePath": "staticwebassets\\images\\products\\9f8eaaa5-5146-4fae-bbb5-c4df5eaf7673.JPG"
+    },
+    {
+      "Id": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\images\\products\\ac70b48a-7558-4b2c-a9c6-ee69812ada06.JPG",
+      "PackagePath": "staticwebassets\\images\\products\\ac70b48a-7558-4b2c-a9c6-ee69812ada06.JPG"
+    },
+    {
       "Id": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\js\\category.js",
       "PackagePath": "staticwebassets\\js\\category.js"
     },
