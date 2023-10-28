@@ -1,4 +1,6 @@
-﻿using DataTransferObjets.System.Models;
+﻿using BusinessLogic.Contracts;
+using DataTransferObjets.Dto.Out;
+using DataTransferObjets.System.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -8,15 +10,18 @@ namespace InventorySystem.Areas.Inventory.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IProductService service;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IProductService service)
         {
             _logger = logger;
+            this.service = service;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> IndexAsync()
         {
-            return View();
+            IEnumerable<ProductResponse> data = await service.GetAll();
+            return View(data);
         }
 
         public IActionResult Privacy()
