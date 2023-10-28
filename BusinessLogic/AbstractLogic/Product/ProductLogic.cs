@@ -1,6 +1,6 @@
-﻿using AutoMapper;
-using DataTransferObjects.Dto;
+﻿using DataTransferObjects.Dto;
 using DataTransferObjets.Configuration;
+using DataTransferObjets.Dto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,24 +11,23 @@ namespace BusinessLogic.AbstractLogic.Product
 {
     internal static class ProductLogic
     {
-        public static void CreateDirectoryImages(string fullpath)
+        public static void CreateDirectoryImages(string fullPath)
         {
-            if(!Directory.Exists(fullpath))
-                Directory.CreateDirectory(fullpath);
+            if (!Directory.Exists(fullPath))
+                Directory.CreateDirectory(fullPath);
         }
-
-        public static void EraseToReWrite(string pathLoad)
+        public static void EraseToRewrite(string pathUpload)
         {
-            if (File.Exists(pathLoad))
-                File.Delete(pathLoad);
+            if (File.Exists(pathUpload))
+                File.Delete(pathUpload);
         }
 
         public static ResponseImagesDto SavePicture(ImagesDto images)
         {
-            string upLoad = images.UpLoadPath;
-            string fileName = Guid.NewGuid().ToString();    
+            string upload = images.UpLoadPath;
+            string fileName = Guid.NewGuid().ToString();
             string extension = Path.GetExtension(images.Files[0].FileName);
-            string fileFullPath = Path.Combine(upLoad, fileName) + extension;
+            string fileFullPath = Path.Combine(upload, fileName) + extension;
 
             using (var fileStream = new FileStream(fileFullPath, FileMode.Create))
                 images.Files[0].CopyTo(fileStream);
@@ -39,6 +38,5 @@ namespace BusinessLogic.AbstractLogic.Product
                 RequestResponse = true
             };
         }
-
     }
 }

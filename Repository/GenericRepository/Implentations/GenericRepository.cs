@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 
 namespace Repository.GenericRepository.Implentations
 {
-    public class GenericRepository<T> : IGenericRepository<T> where T : class
+    public abstract class GenericRepository<T> : IGenericRepository<T> where T : class
     {
         private readonly ApplicationDbContext context;
         private readonly DbSet<T>? dbSet;
@@ -32,12 +32,12 @@ namespace Repository.GenericRepository.Implentations
             return query;
         }
         #endregion
-        public async Task Create(T entity, CancellationToken cancellationToken)
+        public virtual async Task Create(T entity, CancellationToken cancellationToken)
         {
             await dbSet!.AddAsync(entity, cancellationToken);
         }
 
-        public async Task Delete(int id, CancellationToken cancellationToken)
+        public virtual async Task Delete(int id, CancellationToken cancellationToken)
         {
             T? entityToDelete = await dbSet!.FindAsync(id, cancellationToken);
             if (entityToDelete != null)
@@ -48,12 +48,12 @@ namespace Repository.GenericRepository.Implentations
             }
         }
 
-        public void DeleteByRange(IEnumerable<T> entity)
+        public virtual void DeleteByRange(IEnumerable<T> entity)
         {
             dbSet!.RemoveRange(entity);
         }
 
-        public async Task<IEnumerable<T?>> ReadAll(Expression<Func<T, bool>>? filter = null, Func<IQueryable<T>, IOrderedQueryable<T>>? orderBy = null, string includeProperties = "")
+        public virtual async Task<IEnumerable<T?>> ReadAll(Expression<Func<T, bool>>? filter = null, Func<IQueryable<T>, IOrderedQueryable<T>>? orderBy = null, string includeProperties = "")
         {
             IQueryable<T> query = dbSet!;
             query = ApplyIncludeApplyFilter(query, filter!, includeProperties);
@@ -64,14 +64,14 @@ namespace Repository.GenericRepository.Implentations
                 return await query.ToListAsync();
         }
 
-        public async Task<T?> ReadById(Expression<Func<T, bool>>? filter, string includeProperties = "")
+        public virtual async Task<T?> ReadById(Expression<Func<T, bool>>? filter, string includeProperties = "")
         {
             IQueryable<T> query = dbSet!;
             query = ApplyIncludeApplyFilter(query, filter!, includeProperties);
             return await query.FirstOrDefaultAsync();
         }
 
-        public async Task Update(int id, T newEntityToUpdate, CancellationToken cancellationToken)
+        public virtual async Task Update(int id, T newEntityToUpdate, CancellationToken cancellationToken)
         {
             T? entityToUpdate = await dbSet!.FindAsync(id, cancellationToken);
 
