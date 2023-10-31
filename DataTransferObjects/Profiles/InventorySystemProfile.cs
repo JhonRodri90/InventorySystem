@@ -22,6 +22,10 @@ namespace DataTransferObjets.Profiles
                 .ForMember(o => o.CategoryName, b => b.MapFrom(z => z.Category.Name))
                 .ForMember(o => o.MarkName, b => b.MapFrom(z => z.Mark.Name))
                 .ForMember(o => o.ParentName, b => b.MapFrom(z => z.Parent.SerialNumber));
+            CreateMap<CampanignRequest, Campanign>();
+            CreateMap<Campanign, CampanignResponse>()
+                .ForMember(o => o.UpdatedBy, b => b.MapFrom(z => z.UpdatedBy.UserName))
+                .ForMember(o => o.CreatedBy, b => b.MapFrom(z => z.CreatedBy.UserName));
         }
     }
 }

@@ -31,6 +31,7 @@ builder.Services.AddScoped<IWineryService, WineryService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IMarkService, MarkService>();
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ICampanignService, CampanignService>();
 
 var app = builder.Build();
 

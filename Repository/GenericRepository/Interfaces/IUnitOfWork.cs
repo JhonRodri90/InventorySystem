@@ -9,5 +9,6 @@ namespace Repository.GenericRepository.Interfaces
         ICategoryRepository CategoryRepository { get; }
         IMarkRepository MarkRepository { get; }
         IProductRepository ProductRepository { get; }
+        ICampanignRepository CampanignRepository { get; }
     }
 }

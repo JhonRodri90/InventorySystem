@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tHlNSZROy7+s9UvhGFBUj5a+gocgCsa1Q//3SEVkm/s=",
+  "Hash": "+bfm8J6iH365g7kIVDa6A40+VpBYAE7rMmu9fuxLMCM=",
   "Source": "InventorySystem",
   "BasePath": "_content/InventorySystem",
   "Mode": "Default",
@@ -1188,6 +1188,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\ac70b48a-7558-4b2c-a9c6-ee69812ada06.JPG"
+    },
+    {
+      "Identity": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\js\\campanign.js",
+      "SourceId": "InventorySystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\",
+      "BasePath": "_content/InventorySystem",
+      "RelativePath": "js/campanign.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\campanign.js"
     },
     {
       "Identity": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\js\\category.js",
