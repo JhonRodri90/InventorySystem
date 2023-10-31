@@ -13,6 +13,7 @@ namespace Repository.GenericRepository.Implentations
         public IMarkRepository MarkRepository { get; private set; }
 
         public IProductRepository ProductRepository { get; private set; }
+        public ICampanignRepository CampanignRepository { get; private set; }
 
         public UnitOfWork(ApplicationDbContext context)
         {
@@ -21,6 +22,7 @@ namespace Repository.GenericRepository.Implentations
             CategoryRepository = new CategoryRepository(this.context);
             MarkRepository = new MarkRepository(this.context);
             ProductRepository = new ProductRepository(this.context);
+            CampanignRepository = new CampanignRepository(this.context);
 
         }
         public void Dispose()

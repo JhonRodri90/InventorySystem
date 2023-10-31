@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\images\\products\\ac70b48a-7558-4b2c-a9c6-ee69812ada06.JPG"
     },
     {
+      "Id": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\js\\campanign.js",
+      "PackagePath": "staticwebassets\\js\\campanign.js"
+    },
+    {
       "Id": "C:\\WorkSpace\\InventorySystem\\InventorySystem\\wwwroot\\js\\category.js",
       "PackagePath": "staticwebassets\\js\\category.js"
     },
